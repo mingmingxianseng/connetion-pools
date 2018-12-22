@@ -1,0 +1,10 @@
+# Created by .ignore support plugin (hsz.mobi)
+vendor
+.idea
+Temp
+Log
+!Temp/.gitkeep
+!Log/.gitkeep
+/VERSION
+test.php
+Config/*.yaml

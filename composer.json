@@ -1,0 +1,21 @@
+{
+  "name": "mmxs/swoole-connection-pool",
+  "description": "crawler-api",
+  "type": "project",
+  "require": {
+    "php": ">=7.1.0",
+    "ext-swoole": ">=4.2.9",
+    "ext-pdo": "*",
+    "ext-redis": "*",
+    "psr/log": "^1.1"
+  },
+  "require-dev": {
+    "easyswoole/swoole-ide-helper": "^1.0",
+    "pimple/pimple": "^3.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "MMXS\\Swoole\\": "src/"
+    }
+  }
+}
