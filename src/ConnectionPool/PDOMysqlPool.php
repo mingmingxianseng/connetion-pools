@@ -31,7 +31,7 @@ class PDOMysqlPool extends AbstractConnectionPool
             $options = array_merge($options, $queries);
         }
 
-        $connection = new PDOMysqlConnection(new PDOMysql($options), $connectionId);
+        $connection = new PDOMysqlConnection(new PDOMysql($options, $this->logger), $connectionId);
 
         $this->logger->debug("create a new PDOMysql connection#{$connectionId} success.");
 
